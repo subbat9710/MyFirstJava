@@ -5,4 +5,8 @@ https://www.twilio.com/blog/2017/03/create-a-landing-page-with-sinatra-google-sp
 2. To compile: javac Simple.java <br>
 3. To execute: java Simple
 
-Then get Output: For example; "Hello World"
+Then get Output: For example; "Hello World" <br>
+
+Sources: https://www.javatpoint.com/ , https://www.tutorialspoint.com/java/
+
+
