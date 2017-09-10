@@ -49,6 +49,145 @@ public static HelloWorld
  	                        + 3;
 
  	            System.out.println(integerTwo);
+
+ 	//Java primitive type
+ 	    byte bigByte = 127; // Minimum value -128 Maximum value 127
+ 	    short bigShort = 32767;  // Minimum value -32768 maximum value 32767
+ 	    int bigInt = 2147483647; // Minimum value  2147483648 maximum value 2147483647
+ 	    long bigLong = 9223372036854775807L; // Mimimum value -9223372036854775807L
+ 	    float bigFloat = 3.14F; // You must end a float with an F 
+ 	    double bigDouble = 3.1234567890D; // The D is not required with doubles
+
+ 	    Systme.out.println(Float.MAX_VALUE); // Float is precise to 6 decimal places
+ 	    Systme.out.println(Double.MAX_VALUE); // Double is precise to 15 decimal places
+
+ 	    boolean trueOrFalse = true; // Boolean ate true or false, not 1 or 0
+
+ 	    // A char will accept a number or a character surrounded by apostrophes 
+
+ 	    char randomChar = 65; // Charactor code for A is 65 Minimum value 0 Maximum value 655356
+
+ 	    char anotherChar = 'A';
+ 	    System.out.println(randomChar);
+
+ 	     // chars can also contain escaped characters
+
+            char backSpace = '\b';
+
+            char formFeed = '\f';
+
+            char lineFeed = '\n';
+
+            char carriageReturn = '\r';
+
+            char horizontalTab = '\t';
+
+            char doubleQuote = '\"';
+
+            char singleQuote = '\'';
+
+            char backSlash = '\\';
+
+             
+
+            // A string contains a series of characters
+
+            String randomString = "I'm just a random";
+
+            String anotherString = "string";
+
+             
+
+            // You combine strings with a +
+
+            String combinedString = randomString + ' ' + anotherString;
+
+            System.out.println(combinedString);
+
+             
+
+            // How to convert any other type to a string
+
+            String byteString = Byte.toString(bigByte);
+
+            String shortString = Short.toString(bigShort);
+
+            String intString = Integer.toString(bigInt);
+
+            String longString = Long.toString(bigLong);
+
+            String floatString = Float.toString(bigFloat);
+
+            String doubleString = Double.toString(bigDouble);
+
+            String booleanString = Boolean.toString(trueOrFalse);
+
+            String charString = Character.toString(randomChar); // You don't need to do this
+
+             
+
+            System.out.println(charString);
+
+             
+
+            // Can't do this because char is a primitive data type
+
+            // System.out.println(randomChar.getClass());
+
+             
+
+            // You can do this because String is an object
+
+            System.out.println(charString.getClass());
+
+             
+
+            // You use casting to convert from one primitive type to another
+
+            // If you convert from a number that is to big the largest possible value will be
+
+            // used instead
+
+            double aDoubleValue = 3.1456789;
+
+            int doubleToInt = (int) aDoubleValue;
+
+            System.out.println(doubleToInt);
+
+             
+
+            /* To cast to other primitive types just proceed with the conversion to type
+
+             * ie (byte) (short) (long) (double)
+
+             * (float) & (boolean) & (char) don't work.
+
+             * (char) stays as a number instead of a character
+
+             */
+
+             
+
+            // Use parseInt to convert a string into an integer
+
+            int stringToInt = Integer.parseInt(intString);
+
+             
+
+            /* Other parse functions
+
+             * parseShort, parseLong, parseByte, parseFloat, parseDouble, parseBoolean
+
+             * There is no reason to parse a Character
+
+             */        
+
+        }
+
+        // You must provide a closing brace } so Java knows when the function has ended
+
+}
+       
  	}
  }
 
