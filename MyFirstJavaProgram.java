@@ -3,7 +3,11 @@ public class MyFirstJavaProgram {
     * This will print 'Hello World' as the output
     * This is an example of multi-line comments.
     */
-
+// Here I'm defining a new class (Blueprint) named HelloWorld.
+// public tells java that this should be available to all other classess
+// classess are blue prints used to design objects that contain attributes(variables) and methods (functions)
+//HelloWorld is just that you named your program. That allows you to reference it later.
+// { is the opening brace that surrounds the code used by HelloWorld}
    public static void main(String []args) {
       // This is an example of single line comment
       /* This is also an example of single line comment. */
@@ -26,3 +30,5 @@ public class MyFirstJavaProgram {
 //   e. $ java Puppy
 //   will show the out put in the terminal
 //   f. $ Hello World
+
+//------------------------------x-----------------------------------
